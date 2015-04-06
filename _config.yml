@@ -1,7 +1,7 @@
 name: Fabio's Welt
 description: Erfahrungsberichte, Ideen und Alltagssituationen. Alles, was nicht in 140 Zeichen Platz hat.
 
-url: 
+url: http://fabios.world
 paginate_path: "blog/page:num/"
 permalink: blog/:title/
 

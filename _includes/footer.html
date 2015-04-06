@@ -48,5 +48,17 @@
 
           </script>
 
+        <!-- MailChimp -->
+        <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script>
+        <script type="text/javascript">
+            $(function() {
+                $('#subscribe').click(function() {
+                    document.cookie = 'MCEvilPopupClosed=; expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+                    require(["mojo/signup-forms/Loader"], function(L) {
+                        L.start({"baseUrl":"mc.us10.list-manage.com","uuid":"3bd5318cfb72781a439533e99","lid":"9a84ef5a87"});
+                    });
+                });
+            });
+        </script>
     </body>
 </html>

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Pioneer (mit Apple CarPlay) im Smart fortwo (Aktualisiert 09.04.2015)"
-date:   2015-04-05
+date:   2015-04-09
 ---
 
 <p class="intro"><span class="dropcap">A</span>pple CarPlay ist eine coole Sache. Deswegen habe ich mich entschieden mich von meinem alten langweiligen Radio im Smart zu trennen und ein neues modernes einzubauen.</p>

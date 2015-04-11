@@ -9,7 +9,7 @@ title: Fabio's Welt
           {% for post in paginator.posts %}
             <li>
             	<span class="date">{{ post.date | date: '%d.%m.%Y' }}</span>
-            	<h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
+            	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
             	<p class="description">{% if post.description %}{{ post.description  | strip_html | strip_newlines | truncate: 250 }}{% else %}{{ post.content | strip_html | strip_newlines | truncate: 250 }}{% endif %}</p>
             </li>
           {% endfor %}
@@ -17,10 +17,10 @@ title: Fabio's Welt
         <!-- Pagination links -->
         <div class="pagination">
           {% if paginator.previous_page %}
-            <a href="{{ site.url }}{{ paginator.previous_page_path }}" class="previous button__outline">Neuere Beiträge</a>  
+            <a href="{{ paginator.previous_page_path }}" class="previous button__outline">Neuere Beiträge</a>  
           {% endif %} 
           {% if paginator.next_page %}
-            <a href="{{ site.url }}{{ paginator.next_page_path }}" class="next button__outline">Ältere Beiträge</a>
+            <a href="{{ paginator.next_page_path }}" class="next button__outline">Ältere Beiträge</a>
           {% endif %}
         </div>
       </div>

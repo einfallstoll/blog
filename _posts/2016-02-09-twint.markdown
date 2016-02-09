@@ -29,3 +29,11 @@ Jede Person, die TWINT installiert und Bluetooth aktiviert hat, kann also innerh
 ### Fazit
 
 TWINT gibt zwar an, dass [individuelle Daten nie an Anbieter und/oder Dritte weitergegeben werden](https://www.twint.ch/support/faq/#sind-meine-daten-bei-twint-sicher), doch es ist dank der Technologie und Voraussetzungen möglich Daten zu sammeln, die ansonsten nur schwer oder gar nicht verfügbar waren. Wie TWINT diese Daten in Zukunft verwendet, kann man nicht sagen, doch die Erwähnung von Proximity- und Instore-Marketing lässt erahnen, wohin der Hase läuft.
+
+### Update
+
+ Die [Antwort von @TWINT_AG](https://twitter.com/TWINT_AG/status/696985502944260096) auf die Frage, ob Beacons zum Aufzeichnen von Kundenverhalten verwendet werden:
+
+> [@einfallstoll](https://twitter.com/einfallstoll) Nein, wir verwenden die Beacons lediglich an den Kassen.
+
+... hoffen wir das bleibt so.

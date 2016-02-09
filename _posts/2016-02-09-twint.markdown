@@ -1,0 +1,31 @@
+---
+layout: post
+title:  "TWINT - Wer ist das Produkt?"
+date:   2016-02-09
+image:  twint.jpg
+---
+
+<p class="intro"><span class="dropcap">S</span>eit Facebook wissen wir, dass wir scheinbar kostenlose Produkte oft mit unseren Daten bezahlen. Auch TWINT, ein kontaktloser Bezahldienst für iOS und Android, bietet dieses Potenzial - doch wird es auch genutzt?</p>
+
+Die TWINT AG ist eine Tochtergesellschaft der PostFinance und hat einen digitalen Geldbeutel entwickelt, mit dem man sowohl in Online-Shops, als auch an Ladenkassen bezahlen kann. Letzteres wird möglich gemacht, durch sogenannte Beacons, die via Bluetooth Low Energy (auch "BLE" genannt) mit dem Gerät kommunizieren.
+
+### Beacon-Technologie
+
+![Estimote im Einsatz](/assets/img/estimote.jpg) Die Beacon-Technologie wurde entwickelt, um die Navigation in geschlossenen Räumen zu unterstützen. Firmen wie [Estimote](http://estimote.com) setzen diese ein, um standort-spezifische Werbung und Angebote an den Kunden zu schicken. Eine Person, die in der Nähe eines Sonderangebotes stehen bleibt, könnte so zusätzlich einen Rabatt bekommen oder generell darauf aufmerksam gemacht werden. Dies wird auch [Proximity-Marketing](https://de.wikipedia.org/wiki/Bluetooth-Marketing) genannt und bei TWINT unter [Was ist Proximity-Marketing?](https://www.twint.ch/support/faq/#was-ist-proximity-marketing) ebenfalls erwähnt.
+
+
+### Bewegungsprofile
+
+Werden genügend Beacons angebracht, können Kunden sogar sehr detailliert geortet und Bewegungsprofile erstellt werden. Dies bietet die Möglichkeit verschiedene Auswertungen des Kundenverhaltens zu machen und entsprechend darauf zu reagieren: Stellen, an denen besonders viele Kunden durchlaufen, aber nur wenige stehen bleiben, könnten mit zusätzlichen Angeboten ausgestattet werden, um die Aufmerksamkeit der Kunden zu erlangen.
+
+*iOS scannt* ***immer*** *nach Beacon-Signalen, auch wenn die App momentan geschlossen (komplett beendet!) oder iOS gerade frisch gestartet und noch nicht entsperrt wurde. Falls ein Beacon gefunden wurde, wird die App einfach automatisch im Hintergrund gestartet.*
+
+### Benutzerdaten
+
+Um die Beacon-Technologie ausgiebig nutzen zu können und Bewegungsprofile zu erstellen, muss der Benutzer die entsprechende App installieren und Bluetooth aktivieren. Zwei Voraussetzungen, die TWINT an seine Benutzer von Anfang an stellt, um den Dienst überhaupt nutzen zu können.
+
+Jede Person, die TWINT installiert und Bluetooth aktiviert hat, kann also innerhalb des Geschäftes geortet werden und durch die Anmeldung bei TWINT auch identifiziert werden. Bewegungsprofile könnten also spezifischen Kunden zugeordnet werden. Beispielsweise für Statistiken über wiederkehrende Kunden oder Vergleiche zwischen unterschiedlichen Zielgruppen.
+
+### Fazit
+
+TWINT gibt zwar an, dass [individuelle Daten nie an Anbieter und/oder Dritte weitergegeben werden](https://www.twint.ch/support/faq/#sind-meine-daten-bei-twint-sicher), doch es ist dank der Technologie und Voraussetzungen möglich Daten zu sammeln, die ansonsten nur schwer oder gar nicht verfügbar waren. Wie TWINT diese Daten in Zukunft verwendet, kann man nicht sagen, doch die Erwähnung von Proximity- und Instore-Marketing lässt erahnen, wohin der Hase läuft.
